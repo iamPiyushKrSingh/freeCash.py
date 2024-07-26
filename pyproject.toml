@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "freecash.py"
+version = "0.1.0"
+description = "A test package to share free cash to all"
+authors = ["Piyush Kumar Singh"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
